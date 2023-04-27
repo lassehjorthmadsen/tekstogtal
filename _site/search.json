@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Mig",
+    "section": "",
+    "text": "Jeg hedder Lasse Hjorth Madsen"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tekst og tal",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
