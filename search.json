@@ -7,10 +7,24 @@
     "text": "Jeg hedder Lasse Hjorth Madsen"
   },
   {
+    "objectID": "fiktion.html",
+    "href": "fiktion.html",
+    "title": "Fiktion",
+    "section": "",
+    "text": "Her er en liste med mine skønlitterære bøger"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tekst og tal",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Jeg kan godt lide tekst, og jeg kan godt lide tal"
+  },
+  {
+    "objectID": "nonfiktion.html",
+    "href": "nonfiktion.html",
+    "title": "Nonfiktion",
+    "section": "",
+    "text": "Her er en liste med mine artikler (især Zetland):"
   }
 ]
