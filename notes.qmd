@@ -13,4 +13,11 @@ editor: visual
     -   In terminal do: `quarto preview` to preview
     -   In terminal do: `quarto render` to render everything
     -   In terminal do: `quarto publish` to publish to Github Pages
--   
+
+## To-do
+
+-   Add more content
+
+## Issues to fix
+
+-   Updating `_quarto.yml` to use theme `litera` fails to publish: `Sending fatal alert BadCertificate`
