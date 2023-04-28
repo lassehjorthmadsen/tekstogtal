@@ -7,13 +7,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Hej
-      - href: about.qmd
+        text: Om
       - href: nonfiktion.qmd
       - href: fiktion.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
-    toc: true

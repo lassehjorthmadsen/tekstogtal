@@ -1,0 +1,16 @@
+---
+title: "Notes"
+author: "Lasse Hjorth Madsen"
+editor: visual
+---
+
+## Notes and learnings for building Quarto websites
+
+-   <https://quarto.org/docs/websites/>
+-   I followed the 'Terminal' workflow. Seemed best.
+-   I publish to GitHub Pages using terminal. Seems good. (Need to create custom url, though)
+-   Workflow, once set up:
+    -   In terminal do: `quarto preview` to preview
+    -   In terminal do: `quarto render` to render everything
+    -   In terminal do: `quarto publish` to publish to Github Pages
+-   

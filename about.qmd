@@ -2,4 +2,4 @@
 title: "Mig"
 ---
 
-Jeg hedder Lasse Hjorth Madsen
+Jeg hedder Lasse Hjorth Madsen, jeg er data scientist og freelance skribent.

@@ -2,4 +2,4 @@
 title: "Tekst og tal"
 ---
 
-Jeg kan godt lide tekst, og jeg kan godt lide tal
+Jeg hedder Lasse Hjorth Madsen. Jeg kan godt lide tekst, og jeg kan godt lide tal. Derfor hedder mit firma *Tekst og tal*. Logisk, ikke?
