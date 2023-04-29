@@ -33,5 +33,19 @@
     "title": "Notes",
     "section": "",
     "text": "https://quarto.org/docs/websites/\nI followed the ‘Terminal’ workflow. Seemed best.\nI publish to GitHub Pages using terminal. Seems good. (Need to create custom url, though)\nWorkflow, once set up:\n\nIn terminal do: quarto preview to preview\nIn terminal do: quarto render to render everything\nIn terminal do: quarto publish to publish to Github Pages"
+  },
+  {
+    "objectID": "notes.html#to-do",
+    "href": "notes.html#to-do",
+    "title": "Notes",
+    "section": "To-do",
+    "text": "To-do\n\nAdd more content"
+  },
+  {
+    "objectID": "notes.html#issues-to-fix",
+    "href": "notes.html#issues-to-fix",
+    "title": "Notes",
+    "section": "Issues to fix",
+    "text": "Issues to fix\n\nUpdating _quarto.yml to use theme litera fails to publish: Sending fatal alert BadCertificate"
   }
 ]
