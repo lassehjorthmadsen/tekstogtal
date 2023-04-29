@@ -6,11 +6,16 @@ website:
   title: "Tekst og tal"
   navbar:
     left:
-      - href: about.qmd
-        text: Lasse
       - href: index.qmd
+        text: Lasse
       - href: nonfiktion.qmd
+        text: Nonfiktion
       - href: fiktion.qmd
+        text: Fiktion
+      - href: datascience.qmd
+        text: Data Science
+      - href: foredrag.qmd
+        text: Foredrag
   open-graph: true
 
 format:
