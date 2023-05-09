@@ -8,7 +8,7 @@ editor: visual
 
 -   <https://quarto.org/docs/websites/>
 -   I followed the 'Terminal' workflow. Seemed best.
--   I publish to GitHub Pages using terminal. Seems good. (Need to create custom url, though)
+-   I publish to GitHub Pages using terminal. Seems good. 
 -   Workflow, once set up:
     -   In terminal do: `quarto preview` to preview
     -   In terminal do: `quarto render` to render everything
@@ -20,4 +20,3 @@ editor: visual
 
 ## Issues to fix
 
--   Updating `_quarto.yml` to use theme `litera` fails to publish: `Sending fatal alert BadCertificate`
