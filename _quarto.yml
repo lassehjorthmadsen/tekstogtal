@@ -23,6 +23,3 @@ format:
     theme: litera
     css: styles.css
     toc: false
-
-resources:
-  - CNAME
