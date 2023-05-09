@@ -1,2 +1,1 @@
-Sitemap: https://tekstogtal.dk
-historiebutikken.dk/sitemap.xml
+Sitemap: https://tekstogtal.dk/sitemap.xml
