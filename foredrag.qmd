@@ -1,5 +1,10 @@
 ---
-title: "Her er nogle af mine foredrag"
+title: "Her er eksempler på foredrag"
 ---
 
-- Vidensbaseret journalistik
+Jeg holder nu og da foredrag, her er nogle eksempler
+
+- Netværk om Vidensbaseret journalistik
+- eReolen
+- Social Data Science
+- Dokk1
