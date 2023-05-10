@@ -16,9 +16,9 @@
   {
     "objectID": "foredrag.html",
     "href": "foredrag.html",
-    "title": "Her er nogle af mine foredrag",
+    "title": "Her er eksempler på foredrag",
     "section": "",
-    "text": "Vidensbaseret journalistik"
+    "text": "Jeg holder nu og da foredrag, her er nogle eksempler\n\nNetværk om Vidensbaseret journalistik\neReolen\nSocial Data Science\nDokk1"
   },
   {
     "objectID": "index.html",
@@ -46,13 +46,13 @@
     "href": "notes.html#to-do",
     "title": "Notes",
     "section": "To-do",
-    "text": "To-do\n\nAdd more content"
+    "text": "To-do\n\nAdd more contenr\nShorten book descriptions\nAdd book reviews"
   },
   {
     "objectID": "notes.html#issues-to-fix",
     "href": "notes.html#issues-to-fix",
     "title": "Notes",
     "section": "Issues to fix",
-    "text": "Issues to fix"
+    "text": "Issues to fix\n\nAuthentications issue when deploying from other machine?"
   }
 ]
