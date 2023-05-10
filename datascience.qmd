@@ -1,5 +1,17 @@
 ---
-title: "Her er nogle af mine data science projekter"
+title: "Små, skæve data science projekter"
 ---
 
-- TwiLi-indekset
+Her er et par af mine data science-relaterede sideprojekter
+
+-   *Netværksanalyse.* Jeg hjælper Mike Young Academy med dataanalysen bag hans berømte [TwiLi-indeks](http://mikeyoungacademy.dk/da/twi-li-indekset/). Det handler om de netværk forskere danner på sociale medier. Netværksanalyse er sjovt! Her er et [eksempel](presentations/cuhk_graph.html) på en visualisering af netværk på Twitter (her blandt ansatte og studerende på Chinese University of Hong Kong). Med musen kan man zoome, dreje og panorere,
+
+-   *Tekstanalyse.* Tekstanalyse, NLP, er også sjovt. En af mine personlige favoritter var en kvantitativ sammenligning af Bibelen og Koranen som jeg skrev om i *Weekendavisen* [her](pdf/Weekendavisen_2020-05-29.pdf). Ikke alle var enige i, at den kvantitative tilgang var den helt rigtige til religiøse tekster.
+
+-   *Poesi.* Ingen steder er kontaktfladen mellem tekst og tal så stor, som når man bruger algoritmer til at generere tekst. Længe før der de var noget som hed chatGPT forsøgte jeg med enkle midler at få en [algoritme til skrive salmer](https://www.zetland.dk/historie/s8YxgrB9-meAVKN05-fbca6). I øvrigt cirka samme teknik som David Bowie brugte i 1990erne som kreativ inspiration. Han kaldte sin algoritme for the [Verbasizer](https://youtu.be/x3IKLMgFaDA).
+
+-   *Køn.* Uretfærdig forskelsbehandling er noget skidt. Jeg har flere gange undersøgt om data tyder på en forskelsbehandling mellem mandlige og kvindelige forfattere. Svaret er sådan lidt blandet. Se artikler og kommentarer her, her og her.
+
+-   *Backgammon.* En af min yndlingshobbyer. Jeg har et repository med en [R-pakke](https://github.com/lassehjorthmadsen/backgammon), der rummer nyttige funktioner til analyser af backgammon. Fx er der en funktion derlaver fine diagrammer ved hjælp af ggplot. Pakken er mest til mig selv; jeg bruger den til [mine egne analyser](https://lassehjorthmadsen.github.io/bganalyses/). Forhåbentlig kommer der mange flere.
+
+-   *Næste projekt.* Jeg påtænker at udvikle en online rimordbog som tager højde for hvordan ordene udtales og ikke bare hvordan de staves. (Kys rimer ikke på lys.)
