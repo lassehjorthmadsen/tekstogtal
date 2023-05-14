@@ -5,74 +5,97 @@ title: "Et udvalg af mine artikler"
 Mange af artiklerne er bragt i [Zetland](https://wwww.zetland.dk), de fleste handler om data, forskning, og hvordan vi prøver at forstå verdenen. Jeg skriver om ting, som interesserer mig.
 
 -   [**Det vrimler med gode råd om aktier. Men er de noget værd?**](https://www.zetland.dk/historie/se6DXpjw-meAVKN05-0aa25)\
-    *Den, der ved mest, tjener mest. Eller hvad?* Zetland, 10. april 2023
+    Den, der ved mest, tjener mest. Eller hvad?\
+    *Zetland, 10. april 2023*
 
 -   [**Professor emeritus med vid og bid**](https://abonnement.weekendavisen.dk/laesernes-avis/lasse-hjorth-madsen/)\
-    *Læserne anmelder Weekendavisen* Weekendavisen, april, 2023
+    Læserne anmelder Weekendavisen\
+    *Weekendavisen, april, 2023*
 
 -   [**Den ældste bestemmer, den yngste charmerer**](https://www.zetland.dk/historie/sevgQApm-meAVKN05-50aae)\
-    *Her er zombieteorien om søskende -- og hvorfor den ikke vil dø* Zetland, 25. oktober 2022
+    Her er zombieteorien om søskende -- og hvorfor den ikke vil dø\
+    *Zetland, 25. oktober 2022*
 
 -   [**91,4 procent af danskerne elsker denne artikel. Eller gør de? Derfor skal du ikke stole på meningsmålinger**](https://www.zetland.dk/historie/sO0VAdZr-meAVKN05-66f35)\
-    *Ikke alle tal er lige gode.* Zetland, 28. maj 2022
+    Ikke alle tal er lige gode.\
+    *Zetland, 28. maj 2022*
 
 -   [**Kan en algoritme skabe noget smukt? Jeg byggede min egen for at skrive en sang**](https://www.zetland.dk/historie/s8YxgrB9-meAVKN05-fbca6)\
-    *I stedet for at bekymre os om, at kloge computere udkonkurrerer os, bør vi måske spørge os selv, hvad vi kan udrette, hvis vi slår kræfterne sammen.* Zetland, 16. marts 2022
+    I stedet for at bekymre os om, at kloge computere udkonkurrerer os, bør vi måske spørge os selv, hvad vi kan udrette, hvis vi slår kræfterne sammen.\
+    *Zetland, 16. marts 2022*
 
 -   [**Hvordan fikser vi trælse tv-debatter og uvenlige kommentarspor? Tænk som en spejder**](https://www.zetland.dk/historie/s81E6rGw-meAVKN05-b032c)\
-    *At tænke som en spejder er at se tingene, som de er, og ikke som man ville ønske, at de var.* Zetland, 26. november 2021
+    At tænke som en spejder er at se tingene, som de er, og ikke som man ville ønske, at de var.\
+    *Zetland, 26. november 2021*
 
 -   [**Vores kamp mod døden er i den grad mod alle odds. Her er en plan for at vinde den**](https://www.zetland.dk/historie/sejvZrXp-meAVKN05-e8c31)\
-    *Hummere og molboøsters er praktisk talt udødelige. Så hvorfor skulle vi ikke også kunne blive det?* Zetland, 22. juli 2021
+    Hummere og molboøsters er praktisk talt udødelige. Så hvorfor skulle vi ikke også kunne blive det?\
+    *Zetland, 22. juli 2021*
 
 -   [**Den her hat siger, at den kan få dig til at tænke bedre. Jeg satte mig for at undersøge, om det passede**](https://www.zetland.dk/historie/sOXVPwd9-meAVKN05-c8510)\
-    *Så disse linjer er skrevet under indflydelse af elektriske stimulanser i hjernen.* Zetland, 19. maj 2021
+    Så disse linjer er skrevet under indflydelse af elektriske stimulanser i hjernen.\
+    *Zetland, 19. maj 2021*
 
 -   [**Kender du dagene, hvor alting kører for dig? Forskerne var sikre på, at det bare var noget, sportsfolk bildte sig ind ... indtil for nylig**](https://www.zetland.dk/historie/s8qDllr9-meAVKN05-d047f)\
-    *Brydekampen mellem videnskabsfolk og sportsfolk har fra begyndelsen handlet om meget mere end sport.* Zetland, 3. marts 2021
+    Brydekampen mellem videnskabsfolk og sportsfolk har fra begyndelsen handlet om meget mere end sport.\
+    *Zetland, 3. marts 2021*
 
 -   [**Fra juledekorationer til slåskampe. Her er alt det tåbelige ved nutiden, vores efterkommere vil korse sig over**](https://www.zetland.dk/historie/segJ3ql7-meAVKN05-71c33)\
-    *Hvilke af vores praksisser vil man i næste århundrede se tilbage på med undren og hovedrysten?* Zetland, 26. november 2020
+    Hvilke af vores praksisser vil man i næste århundrede se tilbage på med undren og hovedrysten?\
+    *Zetland, 26. november 2020*
     
 -   [**Sværd, møgguder og bibelsk hævnporno**](pdf/Weekendavisen_2020-05-29.pdf)\
-    *Hvis Bibelen var en tv-serie, ville den være Game of Thrones – Koranen minder mere om Matador. En statistisk analyse af de to værker viser overraskende mønstre.*\
-    Weekendavisen, 29. maj 2020    
+    Hvis Bibelen var en tv-serie, ville den være Game of Thrones – Koranen minder mere om Matador. En statistisk analyse af de to værker viser overraskende mønstre.\
+    *Weekendavisen, 29. maj 2020*    
 
 -   [**I 1995 byggede jeg min egen kunstige intelligens. Her er min guide til dig, der vil forstå tidens mest overvurderede teknologi**](https://www.zetland.dk/historie/seWEn09v-meAVKN05-6052d)\
-    *Skal man forstå udviklingen af moderne teknologi, skal man forstå, hvad kunstig intelligens er.* Zetland, 14. oktober 2019
+    Skal man forstå udviklingen af moderne teknologi, skal man forstå, hvad kunstig intelligens er.\
+    *Zetland, 14. oktober 2019*
 
 -   [**Hvad jeg kan fortælle om statistikkens verden, der påvirker alle dele af vores liv -- og, jo, det er på alle måder fascinerende**](https://www.zetland.dk/historie/s8l4qBqE-meAVKN05-5b48a)\
-    *Statistik er noget nær menneskehedens største bedrift, mener journalist og matematiknørd Lasse Hjorth* Zetland, 26. juli 2019
+    Statistik er noget nær menneskehedens største bedrift, mener journalist og matematiknørd Lasse Hjorth\
+    *Zetland, 26. juli 2019*
 
 -   [**Hvordan et netværk af politiske meningsdannere påvirker hinanden -- og måske det kommende folketingsvalg**](https://www.zetland.dk/historie/sop1WxdA-meAVKN05-06c81)\
-    *Sociale mediers indflydelse på den politiske proces er et af tidens store temaer. Men hvad skal der egentlig til for at påvirke den virale dagsorden?* Zetland, 1. maj 2019
+    Sociale mediers indflydelse på den politiske proces er et af tidens store temaer. Men hvad skal der egentlig til for at påvirke den virale dagsorden?\
+    *Zetland, 1. maj 2019*
 
 -   [**Jeg byggede en algoritme for at finde min nye yndlingsbog (og lure, hvordan tech-giganternes mirakelværktøj virker)**](https://www.zetland.dk/historie/s8DP49v6-meAVKN05-a8c6c)\
-    *Netflix gør det, Google gør det, datingsites gør det, politiet gør det -- bruger big data og algoritmer til at finde frem til nålene i verdens store høstakke, hvad enten det handler om at finde din næste favorit-tv-serie, din nye kæreste eller løse en kriminalsag.* Zetland, 13. marts 2019
+    Netflix gør det, Google gør det, datingsites gør det, politiet gør det -- bruger big data og algoritmer til at finde frem til nålene i verdens store høstakke, hvad enten det handler om at finde din næste favorit-tv-serie, din nye kæreste eller løse en kriminalsag.\
+    *Zetland, 13. marts 2019*
 
 -   [**Man kan lære meget af vinsmagningskonkurrencer. Hvordan vi misforstår verden omkring os, for eksempel**](https://www.zetland.dk/historie/sejvx1j6-meAVKN05-af1f8)\
-    *Som vi alle ved, findes der to kilder til sandhed: Den ene er data, den anden er vin. Denne historie rummer begge dele.* Zetland, 27. december 2018
+    Som vi alle ved, findes der to kilder til sandhed: Den ene er data, den anden er vin. Denne historie rummer begge dele.\
+    *Zetland, 27. december 2018*
 
 -   [**Godt gemt i PISA-undersøgelsen ligger interessant data om mobning i Danmark. Her er den.**](https://www.zetland.dk/historie/seWEgZJy-meAVKN05-1da6b)\
-    *PISA-undersøgelsen af skolelevers fagkundskaber gemmer også på en stor portion data om mobning. Vi dykkede ned i tallene.* Zetland, 23. oktober 2018
+    PISA-undersøgelsen af skolelevers fagkundskaber gemmer også på en stor portion data om mobning. Vi dykkede ned i tallene.\
+    *Zetland, 23. oktober 2018*
 
 -   [**Her er, hvad en enorm mængde data afslører om vores musiksmag (og sangteksters brug af ordet 'baby')**](https://www.zetland.dk/historie/soBPkDxW-meAVKN05-d4c36)\
-    *Vi har undersøgt et gigantisk datasæt over de mest populære popmusikere nogensinde, fra Beatles til Kanye West, fra Ed Sheeran til U2. Analysen fortæller, at kærlighedssangen er i krise -- og at det, måske, er Madonnas skyld.* Zetland, 14. juni 2018
+    Vi har undersøgt et gigantisk datasæt over de mest populære popmusikere nogensinde, fra Beatles til Kanye West, fra Ed Sheeran til U2. Analysen fortæller, at kærlighedssangen er i krise -- og at det, måske, er Madonnas skyld.\
+    *Zetland, 14. juni 2018*
 
 -   [**Et dansk barn er langt mere bekymret for at blive testet end et hollandsk. Hvorfor?**](https://www.zetland.dk/historie/soV73qJJ-meAVKN05-105ee)\
-    *Vi hører en hel del om Danmarks faglige placering på PISA-listen, men faktisk gemmer data på en anden, overset historie. Den handler om, hvordan de danske elever har det med at blive testet: Dét bekymrer de sig meget om.* Zetland, 15. januar 2018
+    Vi hører en hel del om Danmarks faglige placering på PISA-listen, men faktisk gemmer data på en anden, overset historie. Den handler om, hvordan de danske elever har det med at blive testet: Dét bekymrer de sig meget om.\
+    *Zetland, 15. januar 2018*
 
 -   [**Læg ikke for meget i Danmarks placering på PISA-listen. Andre ting betyder mere, viser data**](https://www.zetland.dk/historie/sOXVQ5rb-meAVKN05-6ef93)\
-    *PISA-undersøgelsen står centralt i skoledebatten og bliver ofte brugt af regeringer til at forklare deres skolepolitik. Men analyserer man de nøgne data, er der faktisk meget lille forskel mellem sammenlignelige lande.* Zetland, 5. juli 2017
+    PISA-undersøgelsen står centralt i skoledebatten og bliver ofte brugt af regeringer til at forklare deres skolepolitik. Men analyserer man de nøgne data, er der faktisk meget lille forskel mellem sammenlignelige lande.\
+    *Zetland, 5. juli 2017*
 
 -   [**Kønne tal**](pdf/Weekendavisen_2017_05_24.pdf)\
-*Tekst og tal. 63 procent af boganmeldelserne i danske medier omhandler bøger skrevet af mænd, selvom kvinderne er mest populære blandt læserne. Kønsforskellen er især udtalt i de store, toneangivende medier.* Weekendavisen, 24. maj 2017
+    Tekst og tal. 63 procent af boganmeldelserne i danske medier omhandler bøger skrevet af mænd, selvom kvinderne er mest populære blandt læserne. Kønsforskellen er især udtalt i de store, toneangivende medier.\
+    *Weekendavisen, 24. maj 2017*
 
 -   [**Er der penge i hjerterne?**](pdf/Weekendavisen_2016-12-02.pdf)\
-*Tekst og tal. Alle er enige om, at gode anmeldelser betyder meget for en bogs succes hos læserne. Der er bare ét problem: Det passer ikke.* Weekendavisen, 2. december 2016
+    Tekst og tal. Alle er enige om, at gode anmeldelser betyder meget for en bogs succes hos læserne. Der er bare ét problem: Det passer ikke.\
+    *Weekendavisen, 2. december 2016*
 
 -   [**Den lille forskel**](pdf/Weekendavisen_2016_08_12.pdf)\
-*Kommentar. Kvindelige forfattere bliver – i gennemsnit – anmeldt lidt dårligere end mandlige. Forskellen er lille, men som enhver krimielsker ved, dækker et lille mysterium ofte over et større.* Weekendavisen, 12. august 2016
+Kommentar. Kvindelige forfattere bliver – i gennemsnit – anmeldt lidt dårligere end mandlige. Forskellen er lille, men som enhver krimielsker ved, dækker et lille mysterium ofte over et større.\
+    *Weekendavisen, 12. august 2016*
 
 -   [**Danmarks sødeste boganmelder**](pdf/Weekendavisen_2016_07_22.pdf)\
-*Tekst og tal. 14.443 boganmeldelser kan ikke tage fejl. Hvad kan kritikerne lide, og hvad kan de ikke lide? Og hvem er egentlig Danmarks sødeste boganmelder?* Weekendavisen, 22. juli 2016
+Tekst og tal. 14.443 boganmeldelser kan ikke tage fejl. Hvad kan kritikerne lide, og hvad kan de ikke lide? Og hvem er egentlig Danmarks sødeste boganmelder?\
+    *Weekendavisen, 22. juli 2016*

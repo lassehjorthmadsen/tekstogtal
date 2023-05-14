@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Tekst og tal"
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
