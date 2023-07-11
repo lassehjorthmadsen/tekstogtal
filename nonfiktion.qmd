@@ -160,6 +160,10 @@ Mange af artiklerne er bragt i [Zetland](https://wwww.zetland.dk), de fleste han
     Tekst og tal. Alle er enige om, at gode anmeldelser betyder meget for en bogs succes hos læserne. Der er bare ét problem: Det passer ikke.\
     *Weekendavisen, 2. december 2016*
 
+::: column-margin
+![](images/pengeihjerter.png)
+:::
+
 -   [**Den lille forskel**](pdf/Weekendavisen_2016_08_12.pdf)\
 Kommentar. Kvindelige forfattere bliver – i gennemsnit – anmeldt lidt dårligere end mandlige. Forskellen er lille, men som enhver krimielsker ved, dækker et lille mysterium ofte over et større.\
     *Weekendavisen, 12. august 2016*
@@ -167,3 +171,8 @@ Kommentar. Kvindelige forfattere bliver – i gennemsnit – anmeldt lidt dårli
 -   [**Danmarks sødeste boganmelder**](pdf/Weekendavisen_2016_07_22.pdf)\
 Tekst og tal. 14.443 boganmeldelser kan ikke tage fejl. Hvad kan kritikerne lide, og hvad kan de ikke lide? Og hvem er egentlig Danmarks sødeste boganmelder?\
     *Weekendavisen, 22. juli 2016*
+
+::: column-margin
+![](images/boganmeldere.png)
+:::
+    
