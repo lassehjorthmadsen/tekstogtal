@@ -1,0 +1,33 @@
+( function( $ ) {
+  /**
+   * @param $scope The Widget wrapper element as a jQuery element
+   * @param $ The jQuery alias
+   */
+  var WidgetlinklistHandler = function( $scope, $ ) {
+    //console.log( $scope );
+     //console.log( "Hello from Bestyrelse" );
+
+    $(".sj_dropdown").change(function(){
+
+    //console.log($(this).val());
+
+    $('.sj_dropdown > option').each(function() {
+
+    $($(this).val()).addClass("elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone");
+    
+    });
+
+    $($(this).val()).removeClass("elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone");
+
+    })
+
+
+
+
+  };
+   
+  // Make sure you run this code under Elementor.
+  $( window ).on( 'elementor/frontend/init', function() {
+    elementorFrontend.hooks.addAction( 'frontend/element_ready/link-list.default', WidgetlinklistHandler );
+  } );
+} )( jQuery );

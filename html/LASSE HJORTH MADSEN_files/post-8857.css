@@ -1,0 +1,33 @@
+.elementor-8857 .elementor-element.elementor-element-5b95f70f{--divider-border-style:solid;--divider-color:#DEDEDE;--divider-border-width:1px;}.elementor-8857 .elementor-element.elementor-element-5b95f70f .elementor-divider-separator{width:100%;}.elementor-8857 .elementor-element.elementor-element-5b95f70f .elementor-divider{padding-top:38px;padding-bottom:38px;}.elementor-8857 .elementor-element.elementor-element-2f60437b{text-align:center;}.elementor-8857 .elementor-element.elementor-element-2f60437b .elementor-heading-title{color:var( --e-global-color-20dbbe9a );font-family:"WEANewDisplay", Sans-serif;font-size:50px;font-weight:400;line-height:50px;letter-spacing:-0.3px;}.elementor-8857 .elementor-element.elementor-element-2f60437b > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-8857 .elementor-element.elementor-element-7d7078ce .elementor-swiper-button.elementor-swiper-button-prev, .elementor-8857 .elementor-element.elementor-element-7d7078ce .elementor-swiper-button.elementor-swiper-button-next{font-size:31px;}.elementor-8857 .elementor-element.elementor-element-7d7078ce .swiper-pagination-bullet{width:6px;height:6px;}.elementor-8857 .elementor-element.elementor-element-7d7078ce .swiper-wrapper{display:flex;align-items:center;}.elementor-8857 .elementor-element.elementor-element-7d7078ce > .elementor-widget-container{padding:0px 30px 10px 30px;}.elementor-8857 .elementor-element.elementor-element-5a841eb4 .elementor-spacer-inner{height:50px;}@media(max-width:767px){.elementor-8857 .elementor-element.elementor-element-7fa7e4da > .elementor-element-populated{margin:0px 0px 0px 0px;padding:10px 0px 10px 0px;}.elementor-8857 .elementor-element.elementor-element-5b95f70f .elementor-divider{padding-top:22px;padding-bottom:22px;}.elementor-8857 .elementor-element.elementor-element-2f60437b .elementor-heading-title{font-size:41px;line-height:41px;}.elementor-8857 .elementor-element.elementor-element-7d7078ce > .elementor-widget-container{padding:0px 5px 10px 5px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'WEANewDisplay';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-RegularWEB.woff2') format('woff2'),
+		url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-RegularWEB.woff') format('woff');
+}
+@font-face {
+	font-family: 'WEANewDisplay';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-BoldWEB.woff2') format('woff2'),
+		url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-BoldWEB.woff') format('woff');
+}
+@font-face {
+	font-family: 'WEANewDisplay';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-MediumWEB.woff2') format('woff2'),
+		url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-MediumWEB.woff') format('woff');
+}
+@font-face {
+	font-family: 'WEANewDisplay';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-ExtraboldWEB.woff2') format('woff2'),
+		url('https://abonnement.weekendavisen.dk/wp-content/uploads/2020/03/WEANewDisplay-ExtraboldWEB.woff') format('woff');
+}
+/* End Custom Fonts CSS */

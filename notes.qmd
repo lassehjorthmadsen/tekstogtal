@@ -16,7 +16,8 @@ editor: visual
 
 ## To-do
 
--   Add more contenr
+-   Images for non-fiction
+-   Align book cover images
 -   Shorten book descriptions
 -   Add book reviews
 

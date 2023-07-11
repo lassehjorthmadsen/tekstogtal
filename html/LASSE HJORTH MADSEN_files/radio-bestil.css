@@ -1,0 +1,8 @@
+select.sj_dropdown {
+    width: 40%;
+    margin: auto;}
+
+body[data-elementor-device-mode="mobile"] select.sj_dropdown
+{
+width: 100%;
+}
