@@ -17,6 +17,7 @@ website:
       - href: foredrag.qmd
         text: Foredrag
   open-graph: true
+  google-analytics: "G-30R5MD64TG"
 
 format:
   html:
