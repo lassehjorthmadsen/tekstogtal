@@ -10,7 +10,7 @@ There is no build step beyond Quarto and no executable code: none of the `.qmd` 
 
 ## Commands
 
-Run from the repo root (requires the `quarto` CLI on PATH; it is not available in the default bash shell here):
+Run from the repo root. There is no standalone Quarto on this machine — the binary is the one bundled with Positron (`C:\Program Files\Positron\resources\app\quarto\bin`, currently 1.9.37), added to PATH in `~/.bashrc`. It therefore upgrades whenever Positron does, which is how `index.qmd` silently changed rendering once already.
 
 ```bash
 quarto preview                  # live-reloading local preview
@@ -26,6 +26,9 @@ There are no tests or linters.
 - `_quarto.yml` sets `output-dir: docs`, but `docs/` is **gitignored** (a leftover from the R `.gitignore` template). The rendered site is therefore never committed to `main`.
 - Deployment happens via the `gh-pages` branch, whose root is the rendered site. `quarto publish gh-pages` **replaces** the branch contents with the output dir — anything on `gh-pages` that isn't in `docs/` gets deleted.
 - That is why the custom domain lives in a tracked root `CNAME` (`tekstogtal.dk`, single line) listed under `resources:` in `_quarto.yml`, so each render copies it into `docs/` and each publish carries it through. **Don't remove either half.** History: `7385ebd` set this up correctly in May 2023 but with two domains in the file, which GitHub Pages rejects (it allows one); the fix in `c013425` was then over-corrected by `0998f1f`/`916202d`, which deleted the mechanism entirely. Two months later publish `b4bf97a` duly deleted CNAME from `gh-pages` and took the domain down until `20a59ee` restored it. `historiebutikken.dk` was dropped and is not coming back — a second domain would need a DNS-level redirect, not a second line here.
+- `quarto publish gh-pages` does **not** create a `_publish.yml`, and doesn't need one: unlike Quarto Pub or Netlify there is no content ID to remember, since the target comes from the git remote. Consequence — bare `quarto publish` always opens the provider picker, so name the provider explicitly. Publishing pushes only `gh-pages`; `git push` for `main` is a separate step.
+- Quarto copies only the assets a rendered page actually references, so unreferenced files under `images/` get **deleted from `gh-pages`** by the next publish. That is correct behaviour, not a fault: `bibelen.png`, `kønnetal.png`, `professor.PNG` and the uncropped `IMG_6270.jpg` are orphans left over from edited-away content and are expected to be absent from the live site.
+- On this machine the publish's final cleanup fails — Windows/OneDrive holds a lock, leaving `.quarto/quarto-publish-worktree-*` behind with a `Permission denied` warning. Harmless; `rm -rf` it and `git worktree prune`. The publish itself has already succeeded by that point.
 - `_site/` is stale output from before `output-dir` was switched to `docs` (it still contains a long-deleted `about.html`). It was tracked in git until it was untracked with `git rm -r --cached`; the files remain on disk and `.gitignore` covers them. It is not part of the live site.
 
 ## Structure and conventions
