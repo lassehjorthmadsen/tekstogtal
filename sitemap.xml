@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/notes.html</loc>
+    <loc>https://tekstogtal.dk/notes.html</loc>
     <lastmod>2023-07-11T11:37:06.000Z</lastmod>
   </url>
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/index.html</loc>
-    <lastmod>2023-05-09T06:11:25.000Z</lastmod>
+    <loc>https://tekstogtal.dk/index.html</loc>
+    <lastmod>2026-08-12T14:07:50.107Z</lastmod>
   </url>
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/fiktion.html</loc>
+    <loc>https://tekstogtal.dk/fiktion.html</loc>
     <lastmod>2023-07-11T11:36:29.000Z</lastmod>
   </url>
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/datascience.html</loc>
+    <loc>https://tekstogtal.dk/avatar.html</loc>
+    <lastmod>2026-08-12T13:49:19.923Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tekstogtal.dk/datascience.html</loc>
     <lastmod>2023-07-11T11:14:19.000Z</lastmod>
   </url>
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/foredrag.html</loc>
+    <loc>https://tekstogtal.dk/foredrag.html</loc>
     <lastmod>2023-07-11T11:14:19.000Z</lastmod>
   </url>
   <url>
-    <loc>https://lassehjorthmadsen.github.io/tekstogtal/nonfiktion.html</loc>
+    <loc>https://tekstogtal.dk/nonfiktion.html</loc>
     <lastmod>2023-07-11T12:58:57.000Z</lastmod>
   </url>
 </urlset>

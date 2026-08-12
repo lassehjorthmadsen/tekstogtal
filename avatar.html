@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lasse Hjorth Madsen – Tekst og tal</title>
+<title>Chat with me – Tekst og tal</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -81,7 +82,7 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Lasse Hjorth Madsen – Tekst og tal">
+<meta property="og:title" content="Chat with me – Tekst og tal">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Tekst og tal">
 </head>
@@ -104,7 +105,7 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Lasse</span></a>
   </li>  
   <li class="nav-item">
@@ -124,7 +125,7 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <span class="menu-text">Foredrag</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./avatar.html"> 
+    <a class="nav-link active" href="./avatar.html" aria-current="page"> 
 <span class="menu-text">Chat with me</span></a>
   </li>  
 </ul>
@@ -140,43 +141,71 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lasse Hjorth Madsen</h1>
+<h1 class="title">Chat with me</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="https://twitter.com/lassehmadsen" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://github.com/lassehjorthmadsen/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/lassehjorthmadsen/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Jeg er data scientist og freelance journalist hos blandt andet <a href="https://www.zetland.dk">Zetland</a>. Jeg kan godt lide tekst, og jeg kan godt lide tal. Derfor hedder denne her side <em>Tekst og tal</em>. Logisk, ikke?</p>
-<p>Du kan finde en hel masse af mine tekster, både nonfiktion og fiktion. Du kan også finde lidt om mine data science-relaterede sideprojekter.</p>
+  
 
 
-</main></div>
-    </div>
-    <img src="images/IMG_6270_smaller.jpg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
+</header>
+
+
+<p>Here you can chat with a digital version of me. It knows my background, my writing and my data science projects, and it answers right away.</p>
+<p>This page is in <strong>English</strong> so the site is also useful to people who don’t read Danish.</p>
+<p>One more thing: I can look over the shoulder of my digital twin and step in. (You can tell from the color of the photo’s border if it’s me and not the twin.)</p>
+<div class="column-screen">
+<div class="avatar-embed">
+<p><iframe id="avatar-iframe" src="" title="Digital twin of Lasse Hjorth Madsen" allow="clipboard-write"></iframe></p>
 </div>
- <!-- /main -->
+</div>
+<style>
+  /* The app supplies its own chrome and centres its chat on the same column
+     width as this site, so it needs no frame of its own here. */
+  .avatar-embed { overflow-x: hidden; }
+  .avatar-embed iframe {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    min-height: 540px;   /* keeps it usable on a phone in landscape */
+    border: none;
+  }
+</style>
+<script>
+(function () {
+  var BASE = "https://avatar.tekstogtal.dk";
+
+  // Forward ?q=N from this page into the iframe, so a link like
+  // tekstogtal.dk/avatar.html?q=2 opens the page and answers Q2 on arrival.
+  var q = new URLSearchParams(window.location.search).get("q");
+  document.getElementById("avatar-iframe").src =
+    BASE + (q ? "/?q=" + encodeURIComponent(q) : "/");
+})();
+</script>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
