@@ -16,6 +16,8 @@ website:
         text: Data Science
       - href: foredrag.qmd
         text: Foredrag
+      - href: avatar.qmd
+        text: "Chat with me"
   open-graph: true
   google-analytics: "G-30R5MD64TG"
 

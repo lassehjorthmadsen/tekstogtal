@@ -1,0 +1,47 @@
+---
+title: "Chat with me"
+---
+
+Here you can chat with a digital version of me. It knows my background, my
+writing and my data science projects, and it answers right away.
+
+This page is in **English** so the site is also useful to people who don't read Danish.
+
+One more thing: I can look over the shoulder of my digital twin and step in. (You can tell from the color of the photo's border if it's me and not the twin.)
+
+::: {.column-screen}
+<div class="avatar-embed">
+  <iframe
+    id="avatar-iframe"
+    src=""
+    title="Digital twin of Lasse Hjorth Madsen"
+    allow="clipboard-write"
+  ></iframe>
+</div>
+:::
+
+```{=html}
+<style>
+  /* The app supplies its own chrome and centres its chat on the same column
+     width as this site, so it needs no frame of its own here. */
+  .avatar-embed { overflow-x: hidden; }
+  .avatar-embed iframe {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    min-height: 540px;   /* keeps it usable on a phone in landscape */
+    border: none;
+  }
+</style>
+<script>
+(function () {
+  var BASE = "https://avatar.tekstogtal.dk";
+
+  // Forward ?q=N from this page into the iframe, so a link like
+  // tekstogtal.dk/avatar.html?q=2 opens the page and answers Q2 on arrival.
+  var q = new URLSearchParams(window.location.search).get("q");
+  document.getElementById("avatar-iframe").src =
+    BASE + (q ? "/?q=" + encodeURIComponent(q) : "/");
+})();
+</script>
+```
