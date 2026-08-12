@@ -24,5 +24,10 @@ format:
     theme: litera
     css: styles.css
     toc: false
-    
-    
+
+# Keeps the custom domain bound on every `quarto publish gh-pages`: the publish
+# replaces the branch contents with the output dir, so a CNAME that only lives
+# on gh-pages gets deleted (this happened on 2023-07-12). Listing it here copies
+# it into docs/ on each render.
+resources:
+  - CNAME
