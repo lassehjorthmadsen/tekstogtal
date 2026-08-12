@@ -12,7 +12,11 @@ editor: visual
 -   Workflow, once set up:
     -   In terminal do: `quarto preview` to preview
     -   In terminal do: `quarto render` to render everything
-    -   In terminal do: `quarto publish` to publish to Github Pages
+    -   In terminal do: `git push` to push the sources to `main`
+    -   In terminal do: `quarto publish gh-pages` to publish to Github Pages
+-   Name the provider. Bare `quarto publish` shows a picker of all seven providers every time. Quarto never remembers the choice here: it writes a `_publish.yml` for providers like Netlify, but Github Pages needs none, since the destination is just the git remote.
+-   The two pushes are separate. `quarto publish gh-pages` pushes the *rendered site* to the `gh-pages` branch and touches nothing else, so `main` needs its own `git push`.
+-   The custom domain is a `CNAME` file listed under `resources:` in `_quarto.yml`. Publishing replaces everything on `gh-pages`, so a CNAME that is not in the render output gets deleted — which is what took tekstogtal.dk down in July 2023. Leave both the file and the `resources:` entry alone.
 
 ## To-do
 
@@ -23,4 +27,5 @@ editor: visual
 
 ## Issues to fix
 
--   Authentications issue when deploying from other machine?
+-   ~~Authentications issue when deploying from other machine?~~ The remote is SSH (`git@github.com:...`), and this machine loads `id_ed25519` into `ssh-agent` from `~/.bashrc`. Another machine without that key cannot push, so it cannot publish either. Fix is to add the key there, or use an HTTPS remote with a token.
+-   Publishing leaves a locked `.quarto/quarto-publish-worktree-*` directory behind on this machine (OneDrive holds the file). It warns, but only after the publish has succeeded. Just delete it.
