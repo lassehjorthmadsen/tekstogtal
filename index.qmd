@@ -2,7 +2,7 @@
 title: "Lasse Hjorth Madsen"
 about:
   template: solana
-  image: images/IMG_6270.jpg
+  image: images/IMG_6270_smaller.jpg
   links:
     - icon: twitter
       text: twitter
