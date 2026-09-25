@@ -4,6 +4,24 @@ title: "Et udvalg af mine artikler"
 
 Mange af artiklerne er bragt i [Zetland](https://wwww.zetland.dk), de fleste handler om data, forskning, og hvordan vi prøver at forstå verdenen. Jeg skriver om ting, som interesserer mig.
 
+-   [**Uventede vindere**](pdf/Weekendavisen_2026-09-25.pdf)\
+    Kronik. Softwareudviklere, programmører og dataingeniører står til at vinde mest på AI. Hvis de ikke bliver fyret først.
+    \
+    *Weekendavisen, 25. september 2026*
+
+::: column-margin
+![](images/uventedevindere.png)
+:::
+
+-   [**Vil du gerne træffe bedre beslutninger? Se verden som et væddemål**](https://www.zetland.dk/historie/sO0VW9xE-meAVKN05-96fd3)\
+    Rockstjernestatistikeren Nate Silver mener, vi skal tage flere chancer – og lære af gamblere – når det gælder vores egne og verdens problemer.
+    \
+    *Zetland, 19. oktober 2024*
+
+::: column-margin
+![](images/spilteori.png)
+:::
+
 -   [**Det vrimler med gode råd om aktier. Men er de noget værd?**](https://www.zetland.dk/historie/se6DXpjw-meAVKN05-0aa25)\
     Den, der ved mest, tjener mest. Eller hvad?\
     *Zetland, 10. april 2023*

@@ -10,7 +10,14 @@ There is no build step beyond Quarto and no executable code: none of the `.qmd` 
 
 ## Commands
 
-Run from the repo root. There is no standalone Quarto on this machine — the binary is the one bundled with Positron (`C:\Program Files\Positron\resources\app\quarto\bin`, currently 1.9.37), added to PATH in `~/.bashrc`. It therefore upgrades whenever Positron does, which is how `index.qmd` silently changed rendering once already.
+Run from the repo root. There are two Quarto installs on this machine:
+
+- **Standalone, 1.7.30** — `C:\Users\lasse\AppData\Local\Programs\Quarto\bin`. This is the one on the user PATH, so a bare `quarto` in any terminal (bash or PowerShell) runs it. It only changes when upgraded by hand.
+- **Bundled with Positron, 1.9.38** — `C:\Program Files\Positron\resources\app\quarto\bin`. Not on PATH; Positron uses it for its own render/preview. It upgrades whenever Positron does, which is how `index.qmd` silently changed rendering once already.
+
+Both render this site identically as of September 2026. If the output looks wrong, check `<meta name="generator">` in the HTML to see which one made it.
+
+A Positron preview can serve a stale page: on 2026-09-25 a render triggered on save wrote a 46 MB `nonfiktion.html` (all images inlined as base64, generator 1.7.30) that lacked an entry present in the saved `.qmd`. A terminal `quarto render` was correct. When a new entry "doesn't render", re-render from the terminal before debugging the Markdown.
 
 ```bash
 quarto preview                  # live-reloading local preview
