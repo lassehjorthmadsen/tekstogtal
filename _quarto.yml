@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  # Only the .qmd pages are the site. Without this Quarto also renders every
+  # other .md in the project (it skips only README.md), which published
+  # CLAUDE.md as tekstogtal.dk/CLAUDE.html until September 2026.
+  render:
+    - "*.qmd"
 
 website:
   title: "Tekst og tal"

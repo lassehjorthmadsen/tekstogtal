@@ -42,6 +42,7 @@ There are no tests or linters.
 
 - Each navbar page is a top-level `.qmd` registered under `website.navbar.left` in `_quarto.yml`. Adding a page means creating the `.qmd` *and* adding the `href`/`text` pair there.
 - `notes.qmd` is intentionally not in the navbar — it is the author's private scratchpad of Quarto workflow notes and a to-do list, rendered but unlinked.
+- `_quarto.yml` limits rendering to `*.qmd`. Quarto otherwise renders every `.md` too, and this file was live as `tekstogtal.dk/CLAUDE.html` until September 2026. A new page must therefore be a `.qmd`; a plain `.md` page will silently not appear.
 - Content pages are lists of works (articles, books, talks, projects) written as Markdown bullets with a bolded title link, a one-line description, and an italicised publication credit. Cover art and article thumbnails go in the margin:
 
   ```markdown
@@ -55,4 +56,4 @@ There are no tests or linters.
 
 ## avatar.qmd
 
-"Chat with me" embeds a separately deployed chat app from `https://avatar.tekstogtal.dk` in a full-bleed iframe. The inline script reads a `?q=N` query parameter off the site URL and forwards it into the iframe `src`, so `tekstogtal.dk/avatar.html?q=2` opens the page with question 2 pre-answered. That app lives in another repository — changes to its behaviour are not made here.
+"Chat with me" embeds a separately deployed chat app from `https://avatar.tekstogtal.dk` in a full-bleed iframe. The inline script reads a `?q=N` query parameter off the site URL and forwards it into the iframe `src`, so `tekstogtal.dk/avatar.html?q=2` opens the page with question 2 pre-answered. That app lives in another repository — `lassehjorthmadsen/avatar`, cloned at `~/Python-projects/avatar` (its own `CLAUDE.md` covers deploying and operating it) — so changes to its behaviour are not made here. Its knowledge files describe the site and link to it, so when a page URL or project name changes here, grep `knowledge/` there too.
