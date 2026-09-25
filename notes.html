@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>Notes – Tekst og tal</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d70271683aa93feafeb583e606870e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f9e6e4d29af3f5f6ee06eaf03ed5edd8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,8 +175,12 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <ul>
 <li>In terminal do: <code>quarto preview</code> to preview</li>
 <li>In terminal do: <code>quarto render</code> to render everything</li>
-<li>In terminal do: <code>quarto publish</code> to publish to Github Pages</li>
+<li>In terminal do: <code>git push</code> to push the sources to <code>main</code></li>
+<li>In terminal do: <code>quarto publish gh-pages</code> to publish to Github Pages</li>
 </ul></li>
+<li>Name the provider. Bare <code>quarto publish</code> shows a picker of all seven providers every time. Quarto never remembers the choice here: it writes a <code>_publish.yml</code> for providers like Netlify, but Github Pages needs none, since the destination is just the git remote.</li>
+<li>The two pushes are separate. <code>quarto publish gh-pages</code> pushes the <em>rendered site</em> to the <code>gh-pages</code> branch and touches nothing else, so <code>main</code> needs its own <code>git push</code>.</li>
+<li>The custom domain is a <code>CNAME</code> file listed under <code>resources:</code> in <code>_quarto.yml</code>. Publishing replaces everything on <code>gh-pages</code>, so a CNAME that is not in the render output gets deleted — which is what took tekstogtal.dk down in July 2023. Leave both the file and the <code>resources:</code> entry alone.</li>
 </ul>
 </section>
 <section id="to-do" class="level2">
@@ -194,7 +195,8 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <section id="issues-to-fix" class="level2">
 <h2 class="anchored" data-anchor-id="issues-to-fix">Issues to fix</h2>
 <ul>
-<li>Authentications issue when deploying from other machine?</li>
+<li><del>Authentications issue when deploying from other machine?</del> The remote is SSH (<code>git@github.com:...</code>), and this machine loads <code>id_ed25519</code> into <code>ssh-agent</code> from <code>~/.bashrc</code>. Another machine without that key cannot push, so it cannot publish either. Fix is to add the key there, or use an HTTPS remote with a token.</li>
+<li>Publishing leaves a locked <code>.quarto/quarto-publish-worktree-*</code> directory behind on this machine (OneDrive holds the file). It warns, but only after the publish has succeeded. Just delete it.</li>
 </ul>
 
 
@@ -252,14 +254,13 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

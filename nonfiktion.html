@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Et udvalg af mine artikler – Tekst og tal</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -39,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d70271683aa93feafeb583e606870e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f9e6e4d29af3f5f6ee06eaf03ed5edd8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,10 +81,10 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Et udvalg af mine artikler – Tekst og tal">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://tekstogtal.dk/images/aktier.png">
+<meta property="og:image" content="https://tekstogtal.dk/images/uventedevindere.png">
 <meta property="og:site_name" content="Tekst og tal">
-<meta property="og:image:height" content="686">
-<meta property="og:image:width" content="1100">
+<meta property="og:image:height" content="813">
+<meta property="og:image:width" content="1440">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -168,6 +165,22 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 
 <p>Mange af artiklerne er bragt i <a href="https://wwww.zetland.dk">Zetland</a>, de fleste handler om data, forskning, og hvordan vi prøver at forstå verdenen. Jeg skriver om ting, som interesserer mig.</p>
 <ul>
+<li><a href="pdf/Weekendavisen_2026-09-25.pdf"><strong>Uventede vindere</strong></a><br>
+Kronik. Softwareudviklere, programmører og dataingeniører står til at vinde mest på AI. Hvis de ikke bliver fyret først.<br>
+<em>Weekendavisen, 25. september 2026</em></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="images/uventedevindere.png" class="img-fluid"></p>
+</div></div><ul>
+<li><a href="https://www.zetland.dk/historie/sO0VW9xE-meAVKN05-96fd3"><strong>Vil du gerne træffe bedre beslutninger? Se verden som et væddemål</strong></a><br>
+Rockstjernestatistikeren Nate Silver mener, vi skal tage flere chancer – og lære af gamblere – når det gælder vores egne og verdens problemer.<br>
+<em>Zetland, 19. oktober 2024</em></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="images/spilteori.png" class="img-fluid"></p>
+</div></div><ul>
 <li><a href="https://www.zetland.dk/historie/se6DXpjw-meAVKN05-0aa25"><strong>Det vrimler med gode råd om aktier. Men er de noget værd?</strong></a><br>
 Den, der ved mest, tjener mest. Eller hvad?<br>
 <em>Zetland, 10. april 2023</em></li>
@@ -389,14 +402,13 @@ Tekst og tal. 14.443 boganmeldelser kan ikke tage fejl. Hvad kan kritikerne lide
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

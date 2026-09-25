@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Små, skæve data science projekter – Tekst og tal</title>
+<title>claude – Tekst og tal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -79,7 +114,7 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Små, skæve data science projekter – Tekst og tal">
+<meta property="og:title" content="Tekst og tal">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Tekst og tal">
 </head>
@@ -114,7 +149,7 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <span class="menu-text">Fiktion</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./datascience.html" aria-current="page"> 
+    <a class="nav-link" href="./datascience.html"> 
 <span class="menu-text">Data Science</span></a>
   </li>  
   <li class="nav-item">
@@ -138,38 +173,66 @@ gtag('config', 'G-30R5MD64TG', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Små, skæve data science projekter</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Her er et par af mine data science-relaterede sideprojekter</p>
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="what-this-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-is">What this is</h2>
+<p><code>tekstogtal</code> is the personal website of Lasse Hjorth Madsen (data scientist and freelance journalist), published at <strong>tekstogtal.dk</strong>. It is a Quarto website built from a handful of top-level <code>.qmd</code> files. <strong>Write new prose in Danish</strong> — that is the site’s language. The one deliberate exception is <code>avatar.qmd</code>, which is entirely in English: it exists both to offer the chat and to serve visitors who don’t read Danish, so its navbar entry is labelled <code>Chat with me</code> rather than a Danish title. Don’t put a flag emoji there — a 🇬🇧 was tried and renders as the letters <code>GB</code> on Windows, which has no country-flag glyphs in its emoji font.</p>
+<p>There is no build step beyond Quarto and no executable code: none of the <code>.qmd</code> files contain R (or any other) code chunks, so rendering is pure Markdown→HTML. The <code>DESCRIPTION</code> file and <code>tekstogtal.Rproj</code> are vestigial R-package scaffolding from how the project was originally created — they do not describe a real package and nothing depends on them.</p>
+</section>
+<section id="commands" class="level2">
+<h2 class="anchored" data-anchor-id="commands">Commands</h2>
+<p>Run from the repo root. There are two Quarto installs on this machine:</p>
 <ul>
-<li><p><em>Netværksanalyse.</em> Jeg hjælper Mike Young Academy med dataanalysen bag hans berømte <a href="http://mikeyoungacademy.dk/da/twi-li-indekset/">TwiLi-indeks</a>. Det handler om de netværk forskere danner på sociale medier. Netværksanalyse er sjovt! Her er et <a href="presentations/cuhk_graph.html">eksempel</a> på en visualisering af netværk på Twitter (her blandt ansatte og studerende på Chinese University of Hong Kong). Med musen kan man zoome, dreje og panorere,</p></li>
-<li><p><em>Tekstanalyse.</em> Tekstanalyse, NLP, er også sjovt. En af mine personlige favoritter var en kvantitativ sammenligning af Bibelen og Koranen som jeg skrev om i <em>Weekendavisen</em> <a href="pdf/Weekendavisen_2020-05-29.pdf">her</a>. Ikke alle var enige i, at den kvantitative tilgang var den helt rigtige til religiøse tekster.</p></li>
-<li><p><em>Poesi.</em> Ingen steder er kontaktfladen mellem tekst og tal så stor, som når man bruger algoritmer til at generere tekst. Længe før der de var noget som hed chatGPT forsøgte jeg med enkle midler at få en <a href="https://www.zetland.dk/historie/s8YxgrB9-meAVKN05-fbca6">algoritme til skrive salmer</a>. I øvrigt cirka samme teknik som David Bowie brugte i 1990erne som kreativ inspiration. Han kaldte sin algoritme for the <a href="https://youtu.be/x3IKLMgFaDA">Verbasizer</a>.</p></li>
-<li><p><em>Køn.</em> Uretfærdig forskelsbehandling er noget skidt. Jeg har flere gange undersøgt om data tyder på en forskelsbehandling mellem mandlige og kvindelige forfattere. Svaret er sådan lidt blandet. Se artikler og kommentarer <a href="pdf/Weekendavisen_2017_05_24.pdf">her</a> og <a href="pdf/Weekendavisen_2016_08_12.pdf">her</a>.</p></li>
-<li><p><em>Backgammon.</em> En af min yndlingshobbyer. Jeg har et repository med en <a href="https://lassehjorthmadsen.github.io/backgammon/">R-pakke</a>, der rummer nyttige funktioner til analyser af backgammon. Fx er der en funktion derlaver fine diagrammer ved hjælp af ggplot. Pakken er mest til mig selv; jeg bruger den til <a href="https://lassehjorthmadsen.github.io/bganalyses/">mine egne analyser</a>. Forhåbentlig kommer der mange flere.</p></li>
-<li><p><em>Næste projekt.</em> Jeg påtænker at udvikle en online rimordbog som tager højde for hvordan ordene udtales og ikke bare hvordan de staves. (Kys rimer ikke på lys.)</p></li>
+<li><strong>Standalone, 1.7.30</strong> — <code>C:\Users\lasse\AppData\Local\Programs\Quarto\bin</code>. This is the one on the user PATH, so a bare <code>quarto</code> in any terminal (bash or PowerShell) runs it. It only changes when upgraded by hand.</li>
+<li><strong>Bundled with Positron, 1.9.38</strong> — <code>C:\Program Files\Positron\resources\app\quarto\bin</code>. Not on PATH; Positron uses it for its own render/preview. It upgrades whenever Positron does, which is how <code>index.qmd</code> silently changed rendering once already.</li>
 </ul>
+<p>Both render this site identically as of September 2026. If the output looks wrong, check <code>&lt;meta name="generator"&gt;</code> in the HTML to see which one made it.</p>
+<p>A Positron preview can serve a stale page: on 2026-09-25 a render triggered on save wrote a 46 MB <code>nonfiktion.html</code> (all images inlined as base64, generator 1.7.30) that lacked an entry present in the saved <code>.qmd</code>. A terminal <code>quarto render</code> was correct. When a new entry “doesn’t render”, re-render from the terminal before debugging the Markdown.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview                  <span class="co"># live-reloading local preview</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render                   <span class="co"># render the whole site into docs/</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render nonfiktion.qmd    <span class="co"># render a single page</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages         <span class="co"># render + push the output to the gh-pages branch</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>There are no tests or linters.</p>
+</section>
+<section id="publishing-and-the-docs-directory" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-and-the-docs-directory">Publishing and the docs/ directory</h2>
+<ul>
+<li><code>_quarto.yml</code> sets <code>output-dir: docs</code>, but <code>docs/</code> is <strong>gitignored</strong> (a leftover from the R <code>.gitignore</code> template). The rendered site is therefore never committed to <code>main</code>.</li>
+<li>Deployment happens via the <code>gh-pages</code> branch, whose root is the rendered site. <code>quarto publish gh-pages</code> <strong>replaces</strong> the branch contents with the output dir — anything on <code>gh-pages</code> that isn’t in <code>docs/</code> gets deleted.</li>
+<li>That is why the custom domain lives in a tracked root <code>CNAME</code> (<code>tekstogtal.dk</code>, single line) listed under <code>resources:</code> in <code>_quarto.yml</code>, so each render copies it into <code>docs/</code> and each publish carries it through. <strong>Don’t remove either half.</strong> History: <code>7385ebd</code> set this up correctly in May 2023 but with two domains in the file, which GitHub Pages rejects (it allows one); the fix in <code>c013425</code> was then over-corrected by <code>0998f1f</code>/<code>916202d</code>, which deleted the mechanism entirely. Two months later publish <code>b4bf97a</code> duly deleted CNAME from <code>gh-pages</code> and took the domain down until <code>20a59ee</code> restored it. <code>historiebutikken.dk</code> was dropped and is not coming back — a second domain would need a DNS-level redirect, not a second line here.</li>
+<li><code>quarto publish gh-pages</code> does <strong>not</strong> create a <code>_publish.yml</code>, and doesn’t need one: unlike Quarto Pub or Netlify there is no content ID to remember, since the target comes from the git remote. Consequence — bare <code>quarto publish</code> always opens the provider picker, so name the provider explicitly. Publishing pushes only <code>gh-pages</code>; <code>git push</code> for <code>main</code> is a separate step.</li>
+<li>Quarto copies only the assets a rendered page actually references, so unreferenced files under <code>images/</code> get <strong>deleted from <code>gh-pages</code></strong> by the next publish. That is correct behaviour, not a fault: <code>bibelen.png</code>, <code>kønnetal.png</code>, <code>professor.PNG</code> and the uncropped <code>IMG_6270.jpg</code> are orphans left over from edited-away content and are expected to be absent from the live site.</li>
+<li>On this machine the publish’s final cleanup fails — Windows/OneDrive holds a lock, leaving <code>.quarto/quarto-publish-worktree-*</code> behind with a <code>Permission denied</code> warning. Harmless; <code>rm -rf</code> it and <code>git worktree prune</code>. The publish itself has already succeeded by that point.</li>
+<li><code>_site/</code> is stale output from before <code>output-dir</code> was switched to <code>docs</code> (it still contains a long-deleted <code>about.html</code>). It was tracked in git until it was untracked with <code>git rm -r --cached</code>; the files remain on disk and <code>.gitignore</code> covers them. It is not part of the live site.</li>
+</ul>
+</section>
+<section id="structure-and-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="structure-and-conventions">Structure and conventions</h2>
+<ul>
+<li><p>Each navbar page is a top-level <code>.qmd</code> registered under <code>website.navbar.left</code> in <code>_quarto.yml</code>. Adding a page means creating the <code>.qmd</code> <em>and</em> adding the <code>href</code>/<code>text</code> pair there.</p></li>
+<li><p><code>notes.qmd</code> is intentionally not in the navbar — it is the author’s private scratchpad of Quarto workflow notes and a to-do list, rendered but unlinked.</p></li>
+<li><p>Content pages are lists of works (articles, books, talks, projects) written as Markdown bullets with a bolded title link, a one-line description, and an italicised publication credit. Cover art and article thumbnails go in the margin:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>::: column-margin</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="al">![](images/aktier.png)</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Static assets are checked in and referenced by relative path: <code>images/</code> (covers, thumbnails), <code>pdf/</code> (scanned newspaper articles), <code>presentations/</code> (self-contained rendered slide decks linked from <code>foredrag.qmd</code>), <code>html/</code> (a standalone imported page).</p></li>
+<li><p><code>styles.css</code> is effectively empty; theming comes from the <code>litera</code> Bootswatch theme. Per-page CSS is inlined in the <code>.qmd</code> instead (see <code>avatar.qmd</code>).</p></li>
+</ul>
+</section>
+<section id="avatar.qmd" class="level2">
+<h2 class="anchored" data-anchor-id="avatar.qmd">avatar.qmd</h2>
+<p>“Chat with me” embeds a separately deployed chat app from <code>https://avatar.tekstogtal.dk</code> in a full-bleed iframe. The inline script reads a <code>?q=N</code> query parameter off the site URL and forwards it into the iframe <code>src</code>, so <code>tekstogtal.dk/avatar.html?q=2</code> opens the page with question 2 pre-answered. That app lives in another repository — changes to its behaviour are not made here.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
